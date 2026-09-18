@@ -228,12 +228,11 @@ La nueva versión parte de estas lecciones.
 
 ## Créditos
 
-Tal como aparecen en las ventanas "Acerca de" de cada programa.
+Basados en las ventanas "Acerca de" de cada programa.
 
 **Code Generator** (`Abeona Compiler/Form2.resx`)
 - **Idea, diseño de interfaz y algoritmo principal:** Néstor Rodríguez
 - **Colaboración en el diseño y desarrollo:** Daniela Delgado, Ismael López
 
-**Lenguaje Ñ** (`Compilador Ñ/AboutBox1.cs`)
-- **Ñ 2.5:** Carlos Conchas y Néstor Rodríguez
-- **Compilador de Ñ:** Néstor Rodríguez
+**Lenguaje Ñ y su compilador** (`Compilador Ñ/AboutBox1.cs`)
+- Carlos Conchas y Néstor Rodríguez
