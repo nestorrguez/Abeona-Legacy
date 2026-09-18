@@ -1,0 +1,117 @@
+.navbar{
+    opacity: 0.8;
+}
+.fontstyle{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+h3.textimage{
+    text-align: center;
+    font-family: inherit;
+    color: #fff;
+    font-size: 20px;
+}
+.text-responsive{
+    background: #000;
+    opacity: 0.5;
+    margin-top: -50px;
+}
+
+.sectioncontainer{
+    margin-bottom: 50px;
+}
+.color-one{
+    background: #383838;
+    color: #fff;
+
+}
+.footer{
+    background: #000;
+    margin-top: 600px;
+}
+a.stylenone{
+    text-decoration: none;
+}
+
+.site1{
+    margin-bottom: 20px;
+}
+.site2{
+    margin-top: -8px;
+    margin-bottom: 15px;
+}
+.site3{
+    margin-bottom: 15px;
+    margin-top: 29px;
+}
+.site4{
+    margin-bottom: 15px;
+    margin-top: 190px;
+}
+
+/* LOGIN  */
+.form-control{
+    background: #3B3939;
+    border: 0px;
+}
+.form-login {
+	max-width: 330px;
+	margin: 100px auto 0;
+	background: #1E1F20;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+    box-shadow: 3px 3px 20px #1E1F20;
+}
+
+.form-login h2.form-login-heading {
+	margin: 0;
+	padding: 25px 20px;
+	text-align: center;
+	background: #1E1F20;
+	border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+.login-wrap {
+	padding: 20px;
+}
+.login-wrap .registration {
+	text-align: center;
+    color: white;
+}
+.log{
+    background: #313538;
+}
+
+a.stylelog{
+    text-decoration: none;
+    font-weight: 500;
+    color: #074D93;
+}
+.modal-header{
+    background: #1E1F20;
+    color: #fff;
+}
+.modal-body{
+    background: #1E1F20;
+}
+.modal-footer{
+    background: #1E1F20;
+    border: 0px;
+}
+.btn-log{
+    background: #3C3D3F;
+    border: 0px;
+    margin-top: 40px;
+}
+.btn-log:hover{
+    background: #3C3D3F;
+    border: 0px;
+    transform: scale(1.1);
+}
+.text-modal{
+    color: #fff;
+}

@@ -7,3 +7,6 @@ obj/
 *.exe
 *.pdb
 *.rar
+
+# Notas privadas (fuente del README, no se publican)
+notas-privadas/

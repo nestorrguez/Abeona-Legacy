@@ -1,0 +1,16 @@
+﻿.Nav {
+            float:left;
+            height: 70%;
+            width: 20%;
+        }
+
+.CodeBox {
+    float:right;
+    margin-right:50;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Consolas','Times New Roman';
+    margin-left: 179px;
+}
