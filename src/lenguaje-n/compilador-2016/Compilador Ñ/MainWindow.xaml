@@ -1,0 +1,55 @@
+﻿<r:RibbonWindow x:Name="Main" x:Class="Compilador_Ñ.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:r="clr-namespace:Microsoft.Windows.Controls.Ribbon;assembly=RibbonControlsLibrary"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Compilador_Ñ"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" Icon="Resources/3icon.ico">
+    <DockPanel>
+        <r:Ribbon DockPanel.Dock="Top" Title="Compilador Ñ" x:Name="ribbon" VerticalAlignment="Top">
+            <r:Ribbon.ApplicationMenu>
+                <r:RibbonApplicationMenu SmallImageSource="Resources/1icon.ico" LargeImageSource="Resources/1icon.ico">
+                    <r:RibbonApplicationMenuItem x:Name="Nuevo" Header="Nuevo" ></r:RibbonApplicationMenuItem>
+                    <r:RibbonApplicationSplitMenuItem x:Name="Guardar" Header="Guardar">
+                        <r:RibbonApplicationSplitMenuItem x:Name="save" Header="Archivo actual"></r:RibbonApplicationSplitMenuItem>
+                        <r:RibbonApplicationSplitMenuItem x:Name="saveas" Header="Guardar como..."></r:RibbonApplicationSplitMenuItem>
+                    </r:RibbonApplicationSplitMenuItem>
+                    <r:RibbonApplicationSplitMenuItem x:Name="Exportar" Header="Exportar">
+                        <r:RibbonApplicationSplitMenuItem x:Name="Ejecutable" Header="Ejecutable"></r:RibbonApplicationSplitMenuItem>
+                        <r:RibbonApplicationSplitMenuItem x:Name="code" Header="Código fuente"></r:RibbonApplicationSplitMenuItem>
+                    </r:RibbonApplicationSplitMenuItem>
+                    <Separator></Separator>
+                    <r:RibbonApplicationMenuItem x:Name="Salir" Header="Salir"></r:RibbonApplicationMenuItem>
+                </r:RibbonApplicationMenu>
+            </r:Ribbon.ApplicationMenu>
+            <r:RibbonTab Header="Edición" HorizontalAlignment="Left" Height="88" VerticalAlignment="Top" Width="515">
+                <r:RibbonGroup Header="Portapapeles">
+                    <r:RibbonButton ToolTip="Pega un texto desde el portapapeles"  Label="Pegar" x:Name="Paste" SmallImageSource="Resources/glue.png" LargeImageSource="Resources/glue.png" Height="Auto" Margin="0,0,0,0"></r:RibbonButton>
+                    <r:RibbonButton ToolTip="Corta un texto y lo guarda en el portapapeles" Label="Cortar" x:Name="Cut" SmallImageSource="Resources/cutter.png" LargeImageSource="Resources/cutter.png" Height="Auto" Width="20" Margin="0,0,0,0" ></r:RibbonButton>
+                    <r:RibbonButton ToolTip="Copia un texto y lo guarda en el portapapeles" Label="Copiar" x:Name="Copy" SmallImageSource="Resources/notes-1.png" LargeImageSource="Resources/notes-1.png" Height="Auto" Width="20" Margin="0,0,0,0" ></r:RibbonButton>
+                </r:RibbonGroup>
+                <r:RibbonGroup Header="Texto">
+                    <r:RibbonSplitButton LargeImageSource="Resources/eraser.png" SmallImageSource="Resources/eraser.png" Height="Auto" Width="20" Margin="0,0,0,0">
+                        <r:RibbonSplitMenuItem Header="Borrar selección"></r:RibbonSplitMenuItem>
+                        <r:RibbonSplitMenuItem Header="Borrar Todo"></r:RibbonSplitMenuItem>
+                    </r:RibbonSplitButton>
+                    <r:RibbonButton Label="Seleccionar todo" SmallImageSource="Resources/marker.png" LargeImageSource="Resources/marker.png" Height="Auto" Width="65" Margin="0,0,0,0"/>
+                </r:RibbonGroup>
+                <r:RibbonGroup Header="Acciones">
+                    <r:RibbonButton Label="Deshacer" LargeImageSource="Resources/curved-arrow-1.png" SmallImageSource="Resources/curved-arrow-1.png" Height="Auto" Width="55" Margin="0,0,0,0"></r:RibbonButton>
+                    <r:RibbonButton Label="Rehacer" LargeImageSource="Resources/curved-arrow.png" SmallImageSource="Resources/curved-arrow.png" Height="Auto" Width="55" Margin="0,0,0,0"></r:RibbonButton>
+                </r:RibbonGroup>
+            </r:RibbonTab>            
+            <r:RibbonTab Header="Fuente" HorizontalAlignment="Left" Height="88" VerticalAlignment="Top" Width="515">
+                <r:RibbonGroup>
+                    <r:RibbonComboBox Label="Seleccionar fuente" ItemsSource="{Binding Source={x:Static Fonts.SystemFontFamilies}}"/>                    
+                </r:RibbonGroup>
+            </r:RibbonTab>
+            <r:RibbonTab Header="Herramientas" HorizontalAlignment="Left" Height="88" VerticalAlignment="Top" Width="515">
+                <r:RibbonButton Label="Ejecutar" ></r:RibbonButton>
+            </r:RibbonTab>
+        </r:Ribbon>
+    </DockPanel>
+</r:RibbonWindow>

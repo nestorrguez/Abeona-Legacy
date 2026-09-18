@@ -1,0 +1,10 @@
+Fue creada el 27 de Marzo del 2013
+
+Hecha con el fin de facilitar la generacion y compilacion de codigo
+
+Caracteristicas: Es la primera version que se hizo, fue hecha en C++
+con una interfaz de consola (tipo MS-DOS), funcionaba con comandos,
+si querias realizar una accion ingresabas el comando correspondiente
+y el programa te regresaba el codigo para esa accion, apartir de la
+idea de facilitar la generacion de codigo se hicieron las versiones 
+porteriores.

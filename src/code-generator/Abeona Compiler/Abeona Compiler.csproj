@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E3B04CCA-437C-4D25-89DD-549D351D64E4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>Code Generator</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <TargetCulture>es-MX</TargetCulture>
+    <ProductName>Code Generator</ProductName>
+    <PublisherName>Nestor Rodriguez</PublisherName>
+    <SuiteName>Abeona Tools</SuiteName>
+    <WebPage>selenesoftware.blogspot.mx</WebPage>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>main_big.ICO</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="alert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alert.Designer.cs">
+      <DependentUpon>alert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cases.Designer.cs">
+      <DependentUpon>cases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classe.Designer.cs">
+      <DependentUpon>classe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="comand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="comand.Designer.cs">
+      <DependentUpon>comand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conditions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conditions.Designer.cs">
+      <DependentUpon>conditions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="convert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="convert.Designer.cs">
+      <DependentUpon>convert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="convert_v.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="convert_v.Designer.cs">
+      <DependentUpon>convert_v.cs</DependentUpon>
+    </Compile>
+    <Compile Include="error.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="error.Designer.cs">
+      <DependentUpon>error.cs</DependentUpon>
+    </Compile>
+    <Compile Include="For2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="For2.Designer.cs">
+      <DependentUpon>For2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cicles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cicles.Designer.cs">
+      <DependentUpon>cicles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="funt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="funt.Designer.cs">
+      <DependentUpon>funt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="key.cs" />
+    <Compile Include="len_prog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="len_prog.Designer.cs">
+      <DependentUpon>len_prog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="languaje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="languaje.Designer.cs">
+      <DependentUpon>languaje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="objets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="objets.Designer.cs">
+      <DependentUpon>objets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="open.cs" />
+    <Compile Include="switc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="switc.Designer.cs">
+      <DependentUpon>switc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="switch_v.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="switch_v.Designer.cs">
+      <DependentUpon>switch_v.cs</DependentUpon>
+    </Compile>
+    <Compile Include="var.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="var.Designer.cs">
+      <DependentUpon>var.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vector.Designer.cs">
+      <DependentUpon>vector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="while_v.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="while_v.Designer.cs">
+      <DependentUpon>while_v.cs</DependentUpon>
+    </Compile>
+    <Compile Include="do-while_v.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="do-while_v.Designer.cs">
+      <DependentUpon>do-while_v.cs</DependentUpon>
+    </Compile>
+    <Compile Include="declare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="declare.Designer.cs">
+      <DependentUpon>declare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="if_v.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="if_v.Designer.cs">
+      <DependentUpon>if_v.cs</DependentUpon>
+    </Compile>
+    <Compile Include="for_v.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="for_v.Designer.cs">
+      <DependentUpon>for_v.cs</DependentUpon>
+    </Compile>
+    <Compile Include="body.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="body.Designer.cs">
+      <DependentUpon>body.cs</DependentUpon>
+    </Compile>
+    <Compile Include="funtions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="funtions.Designer.cs">
+      <DependentUpon>funtions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="time.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="time.Designer.cs">
+      <DependentUpon>time.cs</DependentUpon>
+    </Compile>
+    <Compile Include="color.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="color.Designer.cs">
+      <DependentUpon>color.cs</DependentUpon>
+    </Compile>
+    <Compile Include="variable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="variable.Designer.cs">
+      <DependentUpon>variable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="printtext.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="printtext.Designer.cs">
+      <DependentUpon>printtext.cs</DependentUpon>
+    </Compile>
+    <Compile Include="comentary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="comentary.Designer.cs">
+      <DependentUpon>comentary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="condition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="condition.Designer.cs">
+      <DependentUpon>condition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="wizzard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wizzard.Designer.cs">
+      <DependentUpon>wizzard.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="alert.resx">
+      <DependentUpon>alert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cases.resx">
+      <DependentUpon>cases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="classe.resx">
+      <DependentUpon>classe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="comand.resx">
+      <DependentUpon>comand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conditions.resx">
+      <DependentUpon>conditions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="convert.resx">
+      <DependentUpon>convert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="convert_v.resx">
+      <DependentUpon>convert_v.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="error.resx">
+      <DependentUpon>error.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="For2.resx">
+      <DependentUpon>For2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cicles.resx">
+      <DependentUpon>cicles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="funt.resx">
+      <DependentUpon>funt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="len_prog.resx">
+      <DependentUpon>len_prog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="languaje.resx">
+      <DependentUpon>languaje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="objets.resx">
+      <DependentUpon>objets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="switc.resx">
+      <DependentUpon>switc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="switch_v.resx">
+      <DependentUpon>switch_v.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="var.resx">
+      <DependentUpon>var.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vector.resx">
+      <DependentUpon>vector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="while_v.resx">
+      <DependentUpon>while_v.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="do-while_v.resx">
+      <DependentUpon>do-while_v.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="declare.resx">
+      <DependentUpon>declare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="if_v.resx">
+      <DependentUpon>if_v.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="for_v.resx">
+      <DependentUpon>for_v.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="body.resx">
+      <DependentUpon>body.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="funtions.resx">
+      <DependentUpon>funtions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="time.resx">
+      <DependentUpon>time.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="color.resx">
+      <DependentUpon>color.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="variable.resx">
+      <DependentUpon>variable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printtext.resx">
+      <DependentUpon>printtext.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="comentary.resx">
+      <DependentUpon>comentary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="condition.resx">
+      <DependentUpon>condition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="wizzard.resx">
+      <DependentUpon>wizzard.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="main_big.ICO" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

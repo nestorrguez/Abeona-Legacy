@@ -1,0 +1,7 @@
+Fue creada el 8 de Julio del 2013
+
+Mejora de la version 3.0
+
+Caracteristicas: En esta version se corrigieron los errores
+de la version anterior, se incluyeron mas caracteristicas y 
+se corrigieron los nombres de algunos botones.

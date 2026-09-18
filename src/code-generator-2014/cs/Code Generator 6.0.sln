@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code Generator 6.0", "Code Generator 6.0\Code Generator 6.0.csproj", "{37A2EF9D-10F2-4469-A591-F5434B29EC58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37A2EF9D-10F2-4469-A591-F5434B29EC58}.Debug|x86.ActiveCfg = Debug|x86
+		{37A2EF9D-10F2-4469-A591-F5434B29EC58}.Debug|x86.Build.0 = Debug|x86
+		{37A2EF9D-10F2-4469-A591-F5434B29EC58}.Release|x86.ActiveCfg = Release|x86
+		{37A2EF9D-10F2-4469-A591-F5434B29EC58}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

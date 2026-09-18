@@ -1,0 +1,15 @@
+Fue creada el 11 de Agosto del 2013
+
+Version independiente a las anteriores
+
+Caracteristicas: Es la primera version en la que no se utilizo
+el codigo fuente utilizado en las anteriores.
+La interfaz de usuario cambio considerablemente y se le incluyeron
+mas herramientas, tambien se corrigieron los errores de versiones
+anteriores.
+Es la primera version en incluir un validador de licencias.
+
+Esta version aun no esta terminada, ya que aun falta depurarse y
+configurar algunas funciones.
+se espera que esta version sea mejor que las anteriores y logre lo
+que las otras no pudieron.

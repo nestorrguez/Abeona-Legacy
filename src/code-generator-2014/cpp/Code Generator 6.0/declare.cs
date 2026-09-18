@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+namespace CodeGenCPP
+{
+    public partial class declare : Form
+    {
+        public declare()
+        {
+            InitializeComponent();
+            label1.Text = open.namevar + " =";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            to.code = label1.Text + textBox1.Text;
+            Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+    }
+}

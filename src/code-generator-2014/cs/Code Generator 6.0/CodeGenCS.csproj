@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EB82C389-DF2E-4755-BDAC-FA2E4E5AA672}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CodeGenCS</RootNamespace>
+    <AssemblyName>CodeGen</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="body.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="body.Designer.cs">
+      <DependentUpon>body.cs</DependentUpon>
+    </Compile>
+    <Compile Include="called.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="called.Designer.cs">
+      <DependentUpon>called.cs</DependentUpon>
+    </Compile>
+    <Compile Include="case.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="case.Designer.cs">
+      <DependentUpon>case.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cic.Designer.cs">
+      <DependentUpon>cic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classes.Designer.cs">
+      <DependentUpon>classes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="claz.cs" />
+    <Compile Include="colors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="colors.Designer.cs">
+      <DependentUpon>colors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="comentary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="comentary.Designer.cs">
+      <DependentUpon>comentary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="compiler.cs" />
+    <Compile Include="conbert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conbert.Designer.cs">
+      <DependentUpon>conbert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="convertO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="convertO.Designer.cs">
+      <DependentUpon>convertO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="debugger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="debugger.Designer.cs">
+      <DependentUpon>debugger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="declare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="declare.Designer.cs">
+      <DependentUpon>declare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delay.Designer.cs">
+      <DependentUpon>delay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="do-while_w.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="do-while_w.Designer.cs">
+      <DependentUpon>do-while_w.cs</DependentUpon>
+    </Compile>
+    <Compile Include="error.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="error.Designer.cs">
+      <DependentUpon>error.cs</DependentUpon>
+    </Compile>
+    <Compile Include="est.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="est.Designer.cs">
+      <DependentUpon>est.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="for_c.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="for_c.Designer.cs">
+      <DependentUpon>for_c.cs</DependentUpon>
+    </Compile>
+    <Compile Include="for_w.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="for_w.Designer.cs">
+      <DependentUpon>for_w.cs</DependentUpon>
+    </Compile>
+    <Compile Include="funt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="funt.Designer.cs">
+      <DependentUpon>funt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="if_w.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="if_w.Designer.cs">
+      <DependentUpon>if_w.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nameclass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nameclass.Designer.cs">
+      <DependentUpon>nameclass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewPro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewPro.Designer.cs">
+      <DependentUpon>NewPro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="objets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="objets.Designer.cs">
+      <DependentUpon>objets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="open.cs" />
+    <Compile Include="prefuntions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prefuntions.Designer.cs">
+      <DependentUpon>prefuntions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="print.Designer.cs">
+      <DependentUpon>print.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proyect.cs" />
+    <Compile Include="switch_c.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="switch_c.Designer.cs">
+      <DependentUpon>switch_c.cs</DependentUpon>
+    </Compile>
+    <Compile Include="switch_w.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="switch_w.Designer.cs">
+      <DependentUpon>switch_w.cs</DependentUpon>
+    </Compile>
+    <Compile Include="to.cs" />
+    <Compile Include="variable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="variable.Designer.cs">
+      <DependentUpon>variable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="web.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="web.Designer.cs">
+      <DependentUpon>web.cs</DependentUpon>
+    </Compile>
+    <Compile Include="while_w.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="while_w.Designer.cs">
+      <DependentUpon>while_w.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="body.resx">
+      <DependentUpon>body.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="called.resx">
+      <DependentUpon>called.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="case.resx">
+      <DependentUpon>case.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cic.resx">
+      <DependentUpon>cic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="classes.resx">
+      <DependentUpon>classes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="colors.resx">
+      <DependentUpon>colors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="comentary.resx">
+      <DependentUpon>comentary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conbert.resx">
+      <DependentUpon>conbert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="convertO.resx">
+      <DependentUpon>convertO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="debugger.resx">
+      <DependentUpon>debugger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="declare.resx">
+      <DependentUpon>declare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delay.resx">
+      <DependentUpon>delay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="do-while_w.resx">
+      <DependentUpon>do-while_w.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="error.resx">
+      <DependentUpon>error.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="est.resx">
+      <DependentUpon>est.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="for_c.resx">
+      <DependentUpon>for_c.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="for_w.resx">
+      <DependentUpon>for_w.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="funt.resx">
+      <DependentUpon>funt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="if_w.resx">
+      <DependentUpon>if_w.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nameclass.resx">
+      <DependentUpon>nameclass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewPro.resx">
+      <DependentUpon>NewPro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="objets.resx">
+      <DependentUpon>objets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prefuntions.resx">
+      <DependentUpon>prefuntions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="print.resx">
+      <DependentUpon>print.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="switch_c.resx">
+      <DependentUpon>switch_c.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="switch_w.resx">
+      <DependentUpon>switch_w.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="variable.resx">
+      <DependentUpon>variable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="web.resx">
+      <DependentUpon>web.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="while_w.resx">
+      <DependentUpon>while_w.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\applications.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\del.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\documents.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paste.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preferences.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save as.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select-color.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\star.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\web_link.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wizard.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="code.ico" />
+    <Content Include="config.ico" />
+    <Content Include="variables.ico" />
+    <Content Include="project.ico" />
+    <Content Include="Icon1.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

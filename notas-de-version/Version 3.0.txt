@@ -1,0 +1,8 @@
+Fue creada el 24 de Mayo del 2013
+
+Mejora de la version 3.0
+
+Caracteristicas: Es la primera version que utilizo una barra de herramientas
+facilitando la organizacion de las funciones en la ventana,tambien fue la
+primera en tener una pantalla de codigo negra, ya que la anterior de color
+blanco, presentaba problemas en algunas computadoras

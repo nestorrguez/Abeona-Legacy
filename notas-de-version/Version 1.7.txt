@@ -1,0 +1,8 @@
+Fue creada el 16 de Mayo del 2013
+
+Modificacion del codigo 1.0
+
+Caracteristicas: Es la primera version que intento usar ventanas
+en lugar de paneles con cada una de las herramientas, pero al no
+disponer de los conocimientos para elaborar dicha mejora se cancelo
+el proyecto, dejando a la version 1.7 incompleta.

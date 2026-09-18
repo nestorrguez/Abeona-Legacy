@@ -1,0 +1,9 @@
+# Artefactos de Visual Studio (no deben volver a entrar al archivo)
+bin/
+obj/
+.vs/
+*.suo
+*.user
+*.exe
+*.pdb
+*.rar

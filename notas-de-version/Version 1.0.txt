@@ -1,0 +1,12 @@
+Fue creada el 11 de Abril del 2013
+
+Mejora visual de la BETA 1.0
+
+Caracteristicas: Es la primera version que utilizo la interfaz grafica
+en lugar de la consola, con el proposito de ayudar a los usuarios a 
+entender mas el programa, es la unica version que utilizo paneles en
+lugar de ventanas, su estetica no era muy atractiva, los botones estaban
+agrupados en una esquina, el codigo en otra y el espacio vacio estaban 
+los paneles con herramientas.
+Fue la primera version en ser mostrada al publico, ante la aceptacion de
+la misma se inicio la mejora y depuracion del programa.

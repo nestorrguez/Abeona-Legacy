@@ -1,0 +1,12 @@
+Fue creada el 16 de mayo del 2013
+
+Mejora de la version 1.7
+
+Caracteristicas: En esta version se reutilizo el concepto de ventanas
+de la version 1.7, en estetica el programa segui siendo poco atractivo
+ya que los botones estaban abajo junto con las funciones basicas del
+programa y la pantalla de codigo era blanca (habia fallas en algunas
+computadoras al momento de utilizar este color),lo que se logro en esta
+version sirvio de standard para las versiones siguientes.
+Esta version no fue terminada, ya que se consideraba muy poco atractiva
+y se le querian agregar mas funciones.
